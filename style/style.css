@@ -104,8 +104,6 @@ body {
     border-radius: 20px;
     
     
-    
-    
   }
   .grid-container{
     
@@ -113,8 +111,30 @@ body {
     grid-template-columns: repeat(4, 1fr);
     max-width: 1600px;
     margin: 0 auto;
-  
     
+  }
+  .footer-container{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .footer-text{
+    background-color:rgb(48, 43, 43);
+    color: white;
+    font-weight: 600;
+    padding: 30px;
+   
+  }
+  .footer-icon{
+    background-color:rgba(0, 0, 0, 0.851);
+    color: white;
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+   
   }
   
   @media only screen and (max-width:576px) {
